@@ -1,0 +1,40 @@
+# Sky Protocol Test Page
+
+This page tests various features of the Sky Protocol server and client.
+
+## Text Formatting
+This is a standard paragraph.
+* List item 1
+* List item 2
+> A blockquote demonstrating quoted text support.
+
+## Links
+=> /index.sky Back to Home
+=> /missing.sky Broken Link Test
+=> sky://google.com/ External Protocol Link (if supported)
+
+## Protocol Extensions
+
+### Drift (Upload)
+Drift is a mechanism for lightweight client uploads.
+(Client support required to test this interactively)
+
+### Overlays
+Overlays allow merging content from other sources.
+=> overlay:/overlay_test.sky Overlay Source
+
+### Layers
+```layer: visual
+[SVG Content Placeholder]
+```
+```layer: data
+key: value
+foo: bar
+```
+
+## Ephemerality
+// Expires: 1h
+// Fade: 30m
+This content is marked to expire/fade.
+
+End of Test.
